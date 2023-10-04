@@ -38,6 +38,8 @@ class VisiteRepository extends ServiceEntityRepository
             $this->getEntityManager()->flush();
         }
     }
+    
+   
 
 //    /**
 //     * @return Visite[] Returns an array of Visite objects
