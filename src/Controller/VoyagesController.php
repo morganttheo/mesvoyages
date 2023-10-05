@@ -26,7 +26,10 @@ class VoyagesController extends AbstractController {
      * @return Response
      */
     private $repository;
-    
+    /**
+     * 
+     * @param VisiteRepository $repository
+     */
     public function __construct(VisiteRepository $repository){
        $this->repository = $repository;
     }

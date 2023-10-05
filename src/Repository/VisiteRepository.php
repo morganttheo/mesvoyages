@@ -29,7 +29,7 @@ class VisiteRepository extends ServiceEntityRepository
             $this->getEntityManager()->flush();
         }
     }
-
+    
     public function remove(Visite $entity, bool $flush = false): void
     {
         $this->getEntityManager()->remove($entity);
